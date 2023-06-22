@@ -7,8 +7,8 @@ describe('index.js', () => {
   });
 
   describe('welcomeMessage', () => {
-    it('contains "Welcome to Flatbook, "', () => {
-      expect(welcomeMessage).to.have.string('Welcome to Flatbook, ');
+    it('contains "Welcome to Facebook, "', () => {
+      expect(welcomeMessage).to.have.string('Welcome to Facebook, ');
     });
 
     it("contains the value of the 'currentUser' variable", () => {
@@ -21,8 +21,8 @@ describe('index.js', () => {
   });
 
   describe('excitedWelcomeMessage', () => {
-    it('contains "WELCOME TO FLATBOOK, "', () => {
-      expect(excitedWelcomeMessage).to.have.string('WELCOME TO FLATBOOK, ');
+    it('contains "WELCOME TO FACEBOOK, "', () => {
+      expect(excitedWelcomeMessage).to.have.string('WELCOME TO FACEBOOK, ');
     });
 
     it("contains the value of the 'currentUser' variable", () => {
